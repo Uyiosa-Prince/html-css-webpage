@@ -1,0 +1,147 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    /*  outline:none;*/
+    font: 14px sans-serif;
+    text-decoration: none;
+}
+
+body {
+    /*text-align:center;*/
+}
+header {
+    background-color: #1137a8;
+    background-size:100%;
+    height: 70px;
+    
+}
+
+#h1apex{
+    color:#ffffff;
+    font-size: 20px;
+    float:left;
+    padding:20px;
+}
+
+nav{
+    color: #ffffff;
+    display:inline-block;
+    float:right;
+    padding: 20px;
+}
+
+    nav a {
+        color: #ffffff;
+        margin-left: 40px;
+       padding:7px 13px;
+       border-radius:3px;
+        
+        text-decoration:none;
+    }
+        nav a:hover {
+            /*color: #8dafed;*/
+            background-color: #5a78b5; /*#342f2f*/
+            background-size: 10px;
+            transition: 0.3s;
+        }
+
+.fotorama{
+    
+}
+
+#h1about {
+    color: #ff6a00;
+    font-size: 20px;
+   /* float: left;*/
+    padding-top: 20px;
+    text-align:left;
+   
+}
+
+#aboutimg {
+    /* width:500px;*/
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    float: left;
+   
+}
+
+
+    .about {
+        margin: 20px;
+        text-decoration: none;
+    }
+
+section.about {
+    margin-bottom: 50px;
+    display: inline-block;
+   
+}
+
+    section.about ul li {
+        padding-bottom: 30px;
+        text-decoration: none;
+        float:right;
+        padding: 20px;
+        border-color:none;
+        border-radius:6px;
+        background-color:#ededed;
+        margin: 10px;
+        display:table-row-group;
+    }
+
+
+section.blog {
+    margin: 30px;
+    margin-left: 150px;
+}
+
+    section.blog h1 {
+        color: #ff6a00;
+        font-size: 20px;
+        padding-bottom: 10px;
+        font: sans-serif bold;
+    }
+
+    section.blog img {
+        width: 250px;
+    }
+
+    section.blog ul li {
+        display: inline-grid;
+        text-decoration: none;
+        margin-right:20px;
+        
+       /* padding-right: 20px;*/
+    }
+
+    section.blog ul p{
+        padding-top:10px;
+    }
+
+
+    footer {
+        margin: 20px;
+    }
+
+footer p {
+    text-align:left;
+    font-size:12px;
+    
+}
+/*nav {
+    color: #ffffff;
+    display: inline-block;
+    padding: 20px;
+    text-align:left;
+ 
+}
+
+nav a {
+    color: #ffffff;
+    padding: 20px;
+    text-align: right;
+    
+}*/
+
